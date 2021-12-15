@@ -8,7 +8,7 @@ include = [
 	"LICENSE-*",
 	"README.md"
 ]
-description = "A generator library used with clap for shell completion scripts, manpage, etc."
+description = "A generator library used with clap for shell completion scripts etc."
 repository = "https://github.com/clap-rs/clap/tree/master/clap_generate"
 documentation = "https://docs.rs/clap_generate"
 keywords = [
@@ -16,7 +16,6 @@ keywords = [
 	"cli",
 	"generate",
 	"completion",
-	"manpage",
 ]
 categories = ["command-line-interface"]
 license = "MIT OR Apache-2.0"
