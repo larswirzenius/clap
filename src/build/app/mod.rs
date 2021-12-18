@@ -2065,6 +2065,12 @@ impl<'help> App<'help> {
         self.version
     }
 
+    /// Get the long version of the app.
+    #[inline]
+    pub fn get_long_version(&self) -> Option<&'help str> {
+        self.long_version
+    }
+
     /// Get the authors of the app.
     #[inline]
     pub fn get_author(&self) -> Option<&'help str> {
@@ -2204,6 +2210,12 @@ impl<'help> App<'help> {
     #[inline]
     pub fn get_subommand_help_heading(&self) -> Option<&str> {
         self.subcommand_heading
+    }
+
+    /// Returns the subcommand value name.
+    #[inline]
+    pub fn get_subcommand_value_name(&self) -> Option<&str> {
+        self.subcommand_value_name
     }
 
     /// Returns the help heading for listing subcommands.
